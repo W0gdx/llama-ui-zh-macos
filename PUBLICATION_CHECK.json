@@ -1,0 +1,35 @@
+{
+  "result": "passed",
+  "scope": "All explicitly selected publication files and every ZIP member",
+  "checks": [
+    "Local username/path markers absent",
+    "Known private services and account email markers absent",
+    "Credential/private-key patterns absent",
+    "Temporary synthetic credentials absent",
+    "No work directory, settings backups, logs, request captures or source maps included",
+    "Screenshot contains only the empty localized application interface",
+    "Public upstream copyright and license contacts preserved"
+  ],
+  "files": [
+    ".gitignore",
+    "ATTRIBUTION.md",
+    "CHANGELOG.md",
+    "LICENSE",
+    "LICENSES/MarioMakeChat-MIT.txt",
+    "LICENSES/llama-ui-zh-MIT.txt",
+    "LICENSES/llama.cpp-MIT.txt",
+    "README.md",
+    "SHA256SUMS.txt",
+    "THIRD_PARTY_NOTICES.txt",
+    "build-meta.json",
+    "llama-ui-zh-b12375.patch",
+    "manage.py",
+    "rebuild.py",
+    "screenshot.jpg",
+    "启用中文界面.command",
+    "恢复原界面.command",
+    "验收记录.json",
+    "Llama-zh-CN-b12375-v1.0.0.zip"
+  ],
+  "zipMembers": 86
+}

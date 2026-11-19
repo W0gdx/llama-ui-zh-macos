@@ -1,0 +1,51 @@
+{
+  "engine": "b12375 (9d25e0014)",
+  "app": "Llama 0.48.0",
+  "checks": {
+    "svelte": "0 errors, 0 warnings",
+    "productionBuild": "passed",
+    "eslint": "passed",
+    "gitDiffWhitespace": "passed",
+    "protectedContractFiles": 42,
+    "settingsFieldsUnchanged": 240,
+    "apiAuthAssets": "HTTP 200 without API key; protected API requires authentication",
+    "sourcePatchReverseApply": "passed",
+    "restoreRoundTrip": "install -> restore exact original HTML -> reinstall",
+    "appSignature": "codesign valid"
+  },
+  "browser": {
+    "desktop": "1280x720, dark",
+    "narrow": "390x844, dark and light",
+    "sections": [
+      "通用",
+      "显示",
+      "工具",
+      "智能体",
+      "导入/导出",
+      "采样与惩罚",
+      "开发者"
+    ],
+    "flows": [
+      "中文首页",
+      "导航与模型管理",
+      "上下文筛选",
+      "API 密钥输入及验证成功",
+      "模拟聊天发送与回复",
+      "英文消息和代码保持原样",
+      "系统消息添加与取消",
+      "分支对话弹窗",
+      "主题保存后刷新保留",
+      "正式9931入口刷新缓存后中文显示"
+    ]
+  },
+  "limitations": [
+    "Mac 原生菜单栏未汉化",
+    "第三方数据与原始模型提示词保留原文",
+    "未下载模型或测试真实模型推理",
+    "后续官方版本需要重新适配"
+  ],
+  "provenance": {
+    "translation": "6667084/llama-ui-zh@534dc67",
+    "source": "ggml-org/llama.cpp@9d25e0014c4b4b316873c01f4938c0e3c687287d"
+  }
+}

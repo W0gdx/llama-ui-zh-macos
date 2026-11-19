@@ -1,0 +1,8 @@
+{
+  "engineBuild": "b12375",
+  "engineCommit": "9d25e0014c4b4b316873c01f4938c0e3c687287d",
+  "appTested": "0.48.0",
+  "embeddedBundle": "bundle.COGb45lj.js",
+  "translationSource": "6667084/llama-ui-zh@534dc670e190211f09f6d3a07428b1598d4ca6eb",
+  "wordingReference": "wenbofeng/MarioMakeChat@4ec56ba96b1b4420930621e6152cba41b4656228"
+}
